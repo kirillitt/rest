@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity5">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Корзина"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="391dp"
+        android:layout_height="386dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:textAlignment="center"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Название блюда"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="88dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    app:srcCompat="@drawable/free_icon_dish_1065715" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Итоговая стоимость заказа"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+</androidx.constraintlayout.widget.ConstraintLayout>
